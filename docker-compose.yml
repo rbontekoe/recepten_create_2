@@ -23,6 +23,7 @@ services:
     image: 127.0.0.1:5000/i_nginx:v1
     ports:
       - '80:80'
+      - '443:443'
     networks:
       my_net:
         aliases:
