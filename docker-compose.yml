@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: recepten.Dockerfile
-    image: 127.0.0.1:5000/i_recepten:v1
+    image: rbontekoe/i_recepten
     command: bash /start.sh
     networks:
       my_net:
